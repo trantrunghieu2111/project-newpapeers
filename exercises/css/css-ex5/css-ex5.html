@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-EX5</title>
+</head>
+
+<body>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #wrapper {
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        #content {
+            width: 600px;
+            background: #f3f3f3;
+        }
+
+        #sidebar {
+            background: #e1e1e1;
+            width: 360px;
+        }
+
+        #footer {
+            clear: both;
+            padding: 10px 15px;
+        }
+
+        .bground-green {
+            background: green;
+        }
+
+        .text-align-center {
+            text-align: center;
+        }
+
+        .padding-15px {
+            padding: 15px;
+        }
+
+        .float-left {
+            float: left;
+        }
+
+        .min-height-600px {
+            min-height: 600px;
+        }
+    </style>
+    <div id="wrapper">
+        <div id="header" class="bground-green text-align-center padding-15px">
+            Layout web 2 Cột - Float Css
+        </div>
+        <div id="wp-content">
+            <div id="content" class="float-left padding-15px min-height-600px">Content</div>
+            <div id="sidebar" class="float-left padding-15px min-height-600px">Sidebar</div>
+        </div>
+        <div id="footer" class="bground-green text-align-center">
+            unitop.vn
+        </div>
+    </div>
+</body>
+
+</html>

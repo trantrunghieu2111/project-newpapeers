@@ -1,0 +1,9 @@
+body {
+    font-size: 14px;
+    line-height: 1.15;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
